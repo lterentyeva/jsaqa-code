@@ -1,5 +1,4 @@
 /node_modules/
-user.js
 
 
 .vscode/*
@@ -7,6 +6,7 @@ user.js
 !.vscode/tasks.json
 !.vscode/launch.json
 !.vscode/extensions.json
+!/user.js
 *.code-workspace
 
 # Local History for Visual Studio Code
