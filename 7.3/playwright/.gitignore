@@ -6,7 +6,7 @@
 !.vscode/tasks.json
 !.vscode/launch.json
 !.vscode/extensions.json
-!./user.js
+!user.js
 *.code-workspace
 
 # Local History for Visual Studio Code
