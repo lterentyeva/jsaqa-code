@@ -4,5 +4,9 @@
     "jest": "^29.3.1",
     "playwright": "^1.28.0"
   },
-  "scripts": {}
+  "scripts": {},
+  "dependencies": {
+    "jest-puppeteer": "^6.2.0",
+    "puppeteer": "^19.4.1"
+  }
 }
