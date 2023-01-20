@@ -1,7 +1,7 @@
 Feature: Tests for tickets
 
 Feature Description
-    Scenario: Should book available ticket
+    Scenario: Booking one ticket
         Given user is on page "http://qamid.tmweb.ru/client/index.php"
         When user choose date
         When user choose time of a movie
@@ -10,7 +10,7 @@ Feature Description
         When user click on the button to get booking code
         Then user get the code and text "Электронный билет"
 
-    Scenario: Should book some available tickets
+    Scenario: Booking several tickets   
         Given user is on page "http://qamid.tmweb.ru/client/index.php"
         When user choose date
         When user choose time of a movie
@@ -20,7 +20,7 @@ Feature Description
         When user click on the button to get booking code
         Then user get the code and text "Электронный билет"
 
-    Scenario: Should try to book unavailable ticket, but unsuccessfully
+    Scenario: Booking button should be disabled
         Given user is on page "http://qamid.tmweb.ru/client/index.php"
         When user choose date that has been choosen earlier
         When user choose time of a movie that has been choosen earlier
